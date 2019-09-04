@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'mesas', loadChildren: './mesas/mesas.module#MesasPageModule' },
   { path: 'cocina', loadChildren: './cocina/cocina.module#CocinaPageModule' },
   { path: 'caja', loadChildren: './caja/caja.module#CajaPageModule' },
+  { path: 'menu', loadChildren: './menu/menu.module#MenuPageModule' },
 ];
 
 @NgModule({

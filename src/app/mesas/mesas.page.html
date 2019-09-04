@@ -7,8 +7,25 @@
         <ion-input class="font" placeholder="Número de mesa"></ion-input>
         <ion-input class="font" placeholder="Nombre mesero"></ion-input>
     </div>
-    <div>
-
+    <div [routerLink]="['/menu']" class="divMenu1">
+        <img class="imageMenus" src="assets/Menu.jpg">
+    </div>
+    <div [routerLink]="['/home']" class="divMenu2">
+        <img class="imageMenus" src="assets/Bebidas.png">
+    </div>
+    <div [routerLink]="['/home']" class="divMenu3">
+        <img class="imageMenus" src="assets/Postres.jpg">
+    </div>
+    <div class="positionB">
+        <div [routerLink]="['/home']">
+            <ion-button class="buttonEnd">Terminar</ion-button>
+        </div>
+        <div [routerLink]="['/home']">
+            <ion-button class="buttonEnd">Entregas</ion-button>
+        </div>
+        <div [routerLink]="['/home']">
+            <ion-button class="buttonEnd">Editar</ion-button>
+        </div>
     </div>
 </ion-content>
 <ion-footer color="dark">

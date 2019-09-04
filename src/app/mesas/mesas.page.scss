@@ -7,6 +7,13 @@
     width: 17vw;
     margin-right: 3vw;
     margin-top: 3%;
+    color: black;
+}
+
+.positionB {
+    text-align-last: right;
+    margin-right: 5vh;
+    margin-top: -5vh;
 }
 
 .marginMesa {
@@ -30,4 +37,30 @@
     height: 20vh;
     border: 0;
     width: 100%;
+}
+
+.imageMenus {
+    height: 17vh;
+    border-radius: 100vh;
+}
+
+.divMenu1 {
+    margin-left: 7vh;
+    margin-top: 2vh;
+}
+
+.divMenu2 {
+    text-align: right;
+    margin-right: 7vh;
+    margin-top: -11vh;
+}
+
+.divMenu3 {
+    text-align: center;
+    margin-right: 10vh;
+    margin-top: -3vh;
+}
+
+.buttonEnd {
+    width: 26vw;
 }
